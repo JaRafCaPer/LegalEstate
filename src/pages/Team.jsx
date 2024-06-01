@@ -1,16 +1,16 @@
 import React from 'react';
 import Header from '../components/Header.jsx';
-import AboutUs from '../components/AboutUs.jsx';
+import Team from '../components/Team.jsx';
 import Footer from '../components/Footer.jsx';
 
-const About = () => {
+const TeamPage = () => {
   return (
     <>
       <Header />
-      <AboutUs />
+      <Team />
       <Footer />
     </>
   );
 };
 
-export default About;
+export default TeamPage;

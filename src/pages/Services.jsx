@@ -1,16 +1,16 @@
 import React from 'react';
 import Header from '../components/Header.jsx';
-import AboutUs from '../components/AboutUs.jsx';
+import Services from '../components/Services.jsx';
 import Footer from '../components/Footer.jsx';
 
-const About = () => {
+const ServicesPage = () => {
   return (
     <>
       <Header />
-      <AboutUs />
+      <Services />
       <Footer />
     </>
   );
 };
 
-export default About;
+export default ServicesPage;

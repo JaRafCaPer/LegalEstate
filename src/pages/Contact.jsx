@@ -1,16 +1,18 @@
 import React from 'react';
 import Header from '../components/Header.jsx';
-import AboutUs from '../components/AboutUs.jsx';
+import Contact from '../components/Contact.jsx';
 import Footer from '../components/Footer.jsx';
+import Map from '../components/Maps.jsx';
 
-const About = () => {
+const ContactPage = () => {
   return (
     <>
       <Header />
-      <AboutUs />
+      <Contact />
+      <Map />
       <Footer />
     </>
   );
 };
 
-export default About;
+export default ContactPage;

@@ -1,11 +1,11 @@
 import React from 'react';
-import Header from '../components/Header';
-import Banner from '../components/Banner';
-import AboutUs from '../components/AboutUs';
-import Services from '../components/Services';
-import Team from '../components/Team';
-import Contact from '../components/Contact';
-import Footer from '../components/Footer';
+import Header from '../components/Header.jsx';
+import Banner from '../components/Banner.jsx';
+import AboutUs from '../components/AboutUs.jsx';
+import Services from '../components/Services.jsx';
+import Team from '../components/Team.jsx';
+import Contact from '../components/Contact.jsx';
+import Footer from '../components/Footer.jsx';
 
 const Home = () => {
   return (

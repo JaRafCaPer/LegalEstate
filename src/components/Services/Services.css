@@ -1,0 +1,50 @@
+.sContainer {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: #5e747f; /* Beige */
+    background-size: cover;
+}
+.secSer  {
+    padding: 2rem; /* 8 */
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #5e747f; /* Beige */
+}
+.title {
+    font-size: 2.25rem; /* 4xl */
+    font-weight: bold;
+    margin-bottom: 1rem; /* 4 */
+    color:#E1D9D0;
+    text-align: center;
+}
+.services-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 1.115rem; /* lg */
+    color:#E1D9D0;
+    margin-top: 0.70rem; /* 8 */
+}
+.textP2 {
+    margin-bottom: 1.5rem; /* 6 */
+    font-size: 1.125rem; /* lg */
+    color:#E1D9D0;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+}
+.imgSer {
+    width: 25%;
+    height: 25%;
+    object-fit: cover;
+    align-items: center;
+    margin: auto;
+    
+}

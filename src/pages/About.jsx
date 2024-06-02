@@ -1,7 +1,7 @@
 import React from 'react';
-import Header from '../components/Header.jsx';
-import AboutUs from '../components/AboutUs.jsx';
-import Footer from '../components/Footer.jsx';
+import Header from '../components/Header/Header.jsx';
+import AboutUs from '../components/AboutUs/AboutUs.jsx';
+import Footer from '../components/Footer/Footer.jsx';
 
 const About = () => {
   return (

@@ -1,0 +1,16 @@
+.imgContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+    background-image: url('../../assets/images/12.png');
+}
+
+.imgLogo {
+    width: 30%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 40px;
+    
+}

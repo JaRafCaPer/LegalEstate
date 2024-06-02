@@ -1,0 +1,11 @@
+.header {
+    background-color: #BDBDBC;
+    background-size: cover;
+  }
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 15px
+  }

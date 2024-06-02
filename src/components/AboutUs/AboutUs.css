@@ -1,0 +1,32 @@
+.mainContainer {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: #E1D9D0; /* Beige */
+    background-size: cover;
+   
+  }
+  .imgAbout {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: auto;
+  }
+  .title {
+    font-size: 2.25rem; /* 4xl */
+    font-weight: bold;
+    margin-bottom: 1rem; /* 4 */
+    color:#5e747f;
+    text-align: center;
+  }
+    .textP {
+        margin-bottom: 1.5rem; /* 6 */
+        font-size: 1.125rem; /* lg */
+        color:#5e747f;
+        width: 70%;
+        text-align: center;
+        margin: auto;
+    }

@@ -1,7 +1,7 @@
 import React from 'react';
-import Header from '../components/Header.jsx';
-import Services from '../components/Services.jsx';
-import Footer from '../components/Footer.jsx';
+import Header from '../components/Header/Header.jsx';
+import Services from '../components/Services/Services.jsx';
+import Footer from '../components/Footer/Footer.jsx';
 
 const ServicesPage = () => {
   return (

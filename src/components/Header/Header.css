@@ -4,11 +4,15 @@
     display: flex;
   }
   .nav {
-    display: flex;
+    display: inline-block;
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    border-radius: 15px
+    width: auto;
+  }
+  .imgLeest {
+    width: 30%;
+    height: auto;
   }
   @media (max-width: 400px) {
     .header {

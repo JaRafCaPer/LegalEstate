@@ -1,6 +1,7 @@
 .header {
     background-color: #BDBDBC;
     background-size: cover;
+    display: flex;
   }
   .nav {
     display: flex;
@@ -8,4 +9,19 @@
     align-items: center;
     padding: 1rem;
     border-radius: 15px
+  }
+  @media (max-width: 400px) {
+    .header {
+      font-size: 12px;
+      flex-direction: column;
+    }
+    .nav {
+      font-size: 12px;
+      flex-direction: column;
+    }
+    .imgLeest {
+      width: auto;
+      height: auto;
+      margin-bottom: 30px;
+    }
   }

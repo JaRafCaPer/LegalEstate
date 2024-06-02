@@ -11,7 +11,7 @@ const Banner = () => {
           LEEST nace de la idea de que una vivienda no es solo una inversión, sino un legado que se transmite de generación en generación. Esta marca se crea con la misión de proteger y preservar ese legado a través de servicios legales especializados en bienes raíces.
         </p>
         <p>
-          Somos ser el muro que protege a tu familia y a tu patrimonio. Contruyamos juntos tu mejor futuro.
+          Somos el muro que protege a tu familia y a tu patrimonio. Contruyamos juntos tu mejor futuro.
         </p>
         <button>Contáctanos</button>
       </div>

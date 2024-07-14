@@ -1,0 +1,63 @@
+.services {
+    padding: 2rem;
+    background-color: #5e747f; 
+    font-family: 'Asen Pro', sans-serif;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .services-title {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #5e747f; 
+  }
+  
+  .service-item {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background: #E1D9D0; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .service-title {
+    font-size: 2rem;
+    color: #5e747f; 
+  }
+  
+  .service-item img {
+    max-width: 70%;
+    height: auto;
+    border-radius: 8px;
+    margin: 1rem 0;
+  }
+  
+  .service-description {
+    font-size: 1.125rem;
+    color: #5e747f; 
+    line-height: 1.6;
+  }
+  
+  @media (min-width: 768px) {
+    .service-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .service-item img {
+      width: 100%;
+      margin: 0 0 1rem 0;
+    }
+  
+    .service-description {
+      flex: 1;
+    }
+  }
+  

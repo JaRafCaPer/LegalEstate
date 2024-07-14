@@ -28,8 +28,10 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    font-size: 1.115rem; /* lg */
+    font-size: 1.125rem; /* lg */
     color:#E1D9D0;
+    justify-content: center;
+    width: 70%;
     margin-top: 0.70rem; /* 8 */
 }
 .textP2 {
@@ -37,6 +39,7 @@
     font-size: 1.125rem; /* lg */
     color:#E1D9D0;
     width: 70%;
+    justify-content: center;
     text-align: center;
     margin: auto;
 }

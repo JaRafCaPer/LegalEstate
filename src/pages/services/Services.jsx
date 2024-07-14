@@ -36,18 +36,18 @@ const ServicesPage = () => {
   return (
     <>
       <Header />
-      
+      <Services />
       <section className="services">
       <div className="container">
         <h2 className="services-title">Nuestros Servicios</h2>
         {servicesData.map((service, index) => (
-          <div key={index} className="service-item">
-            <h3 className="service-title">{service.title}</h3>
+          <div key={index} className="service-item grid grid-cols-3 gap-4">
+            <h3 className="service-title basis-1/4">{service.title}</h3>
+            <p className="service-description basis-1/4">{service.description}</p>
             {service.image && <img src={service.image} alt={service.title} />}
             {service.images && service.images.map((image, idx) => (
               <img key={idx} src={image} alt={`${service.title} ${idx + 1}`} />
-            ))}
-            <p className="service-description">{service.description}</p>
+            ))}  
           </div>
         ))}
       </div>

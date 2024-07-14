@@ -1,0 +1,81 @@
+.about-us {
+    padding: 2rem;
+    background-color: #5e747f; /* mediumGray */
+    font-family: 'Asen Pro', sans-serif;
+    
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #E1D9D0; /* lightGray */
+  }
+  
+  .textP2 {
+    font-size: 1.125rem;
+    color: #E1D9D0; /* lightGray */
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    text-align: justify;
+  }
+  
+  .team-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #E1D9D0;
+  }
+  
+  .team-image {
+    width: 50%;
+    height: auto;
+    border-radius: 8px;
+    margin: 2rem 0;
+  }
+  
+  .team-text {
+    max-width: 800px;
+    text-align: left;
+  }
+  
+  .subtitle {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #E1D9D0; /* lightGray */
+  }
+  
+  .team-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .team-list li {
+    margin-bottom: 1rem;
+    color: #E1D9D0; /* lightGray */
+  }
+  
+  .team-list li strong {
+    color: #E1D9D0; /* darkGray */
+  }
+  
+  @media (min-width: 768px) {
+    .team-section {
+      flex-direction: row;
+    }
+  
+    .team-image {
+      flex: 1;
+      margin-right: 2rem;
+    }
+  
+    .team-text {
+      flex: 2;
+    }
+  }
+  

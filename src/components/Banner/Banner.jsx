@@ -13,7 +13,7 @@ const Banner = () => {
         <p>
           Somos el muro que protege a tu familia y a tu patrimonio. Contruyamos juntos tu mejor futuro.
         </p>
-        <button>Contáctanos</button>
+        <button className="buttonBanner">Contáctanos</button>
       </div>
       <div className="banner-image">
         <img src={muroImg} alt="Imagen representativa" />

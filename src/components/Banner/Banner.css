@@ -5,7 +5,6 @@
     background-color: #E1D9D0; /* Beige */
     padding: 2.5rem; /* 10 */
     min-height: 80vh;
-    background-image: url('/path/to/your/pattern.png'); /* Actualiza la ruta de la imagen */
     background-size: cover;
   }
   
@@ -54,4 +53,12 @@
     border-radius: 40px;
    
   }
-  
+  @media (max-width: 400px) {
+    .banner {
+      flex-direction:column-reverse;
+          }
+    .banner-image {
+      width: 100vw;
+      height: auto;
+    }
+  }

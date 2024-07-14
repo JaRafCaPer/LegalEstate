@@ -14,8 +14,6 @@ const Home = () => {
     <>
       <Header />
       <Banner />
-      <div className='imgContainer'>      <img src={imgLogo} alt="Legal Estate Logo" className="imgLogo" />
-</div>
       <AboutUs />
       <Services />
      <div className='imgContainer'>

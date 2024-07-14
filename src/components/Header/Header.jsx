@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <header className=" header ">
       <nav className=" nav flex justify-between items-center">
-        <div className="flex items-center space-x-4" style={{ marginLeft: '6.25%' }}>
+        <div className="imgCon flex items-center space-x-4" style={{ marginLeft: '6.25%' }}>
           <img src={logoTipo} alt="Legal Estate Logo" className="imgLeest" />
           
         </div>

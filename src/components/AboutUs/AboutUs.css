@@ -4,7 +4,7 @@
     display: flex;
     align-items: center;
     text-align: center;
-    background-color: #E1D9D0; 
+    background-color: #e1d9d0b4; 
     background-size: cover;
    
   }
@@ -15,11 +15,11 @@
     width: 80%;
     height: auto;
   }
-  .title {
+  .title4 {
     font-size: 2.25rem; 
     font-weight: bold;
     margin-bottom: 1rem; 
-    color:black;
+    color:#5e747f;
     text-align: center;
   }
     .textP {

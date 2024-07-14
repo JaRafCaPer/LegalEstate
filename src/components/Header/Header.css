@@ -10,6 +10,11 @@
     padding: 1rem;
     width: auto;
   }
+ .imgCon {
+    width: 50%;
+    height: auto;
+    margin: auto;
+  }
   .imgLeest {
     width: 30%;
     height: auto;

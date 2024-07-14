@@ -1,13 +1,13 @@
 import React from 'react';
 import Header from '../../components/Header/Header.jsx';
-import Services from '../../components/Services/Services.jsx';
 import Footer from '../../components/Footer/Footer.jsx';
+import img1 from '../../assets/images/AsesoriaLegal.webp';
 import './Services.css';
 
 const servicesData = [
   {
     title: "Asesoría Legal Inmobiliaria",
-    image: "/src/assets/images/AsesoriaLegal.webp",
+    image: img1,
     description: "Proveemos orientación legal en todas las fases de transacciones inmobiliarias, asegurando que cada operación se realice con total transparencia y seguridad jurídica."
   },
   {

@@ -3,6 +3,7 @@
   padding: 3rem 1rem;
   font-family: 'Asen Pro', sans-serif;
   color: #5e747f; /* lightGray */
+  box-sizing: border-box; /* Incluir padding y borde en el ancho y alto totales */
 }
 
 .contact-section .container {
@@ -53,6 +54,9 @@
 
 .social-media {
   margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem; /* Añadir espacio entre los íconos */
 }
 
 .social-media a {
@@ -75,12 +79,12 @@
   }
 
   .social-media {
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row; /* Mantener los íconos en una fila */
+    justify-content: center;
   }
 
   .social-media a {
-    margin-bottom: 1rem;
+    margin-bottom: 0;
   }
 }
 

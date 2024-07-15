@@ -1,88 +1,145 @@
 .sContainer {
-    width: auto;
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center; /* Centra el contenido horizontalmente */
-    text-align: center;
-    background-color: #5e747f; /* lightGray */
-    background-size: cover;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Centra el contenido horizontalmente */
+  text-align: center;
+  background-color: #5e747f; /* lightGray */
+  background-size: cover;
+  padding: 2rem;
+  box-sizing: border-box; /* Asegura que el padding se incluya en el tamaño total */
+}
+
+.secSer {
+  padding: 2rem;
+  width: 55%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #5e747f; /* lightGray */
+  box-sizing: border-box; /* Asegura que el padding se incluya en el tamaño total */
+}
+
+.title {
+  font-size: 2.25rem; /* 4xl */
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #E1D9D0; /* beige */
+  text-align: center;
+}
+
+.services-list {
+  list-style-type: none;
+  padding: 0;
+  font-size: 1.125rem; /* lg */
+  color: #E1D9D0; /* beige */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centra la lista horizontalmente */
+  gap: 1rem; /* Añadir espacio entre los elementos de la lista */
+}
+
+.services-list li {
+  display: flex;
+  align-items: center;
+  font-size: 1.125rem; /* lg */
+  color: #E1D9D0; /* beige */
+}
+
+.service-icon {
+  margin-right: 0.5rem;
+  color: #E1D9D0; /* beige */
+}
+
+.textP2 {
+  margin-bottom: 1.5rem; /* 6 */
+  font-size: 1.125rem; /* lg */
+  color: #E1D9D0; /* beige */
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+}
+
+.imgSer {
+  width: 22%;
+  height: 22%;
+  object-fit: cover;
+  margin: auto;
+}
+
+@media (max-width: 768px) {
+  .sContainer {
+    flex-direction: column;
+    padding: 1.5rem;
   }
-  
+
   .secSer {
-    padding: 2rem;
-    width: 55%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #5e747f; /* lightGray */
+    width: 80%;
+    padding: 1rem;
   }
-  
+
   .title {
-    font-size: 2.25rem; /* 4xl */
-    font-weight: bold;
-    margin-bottom: 1rem;
-    color: #E1D9D0; /* beige */
-    text-align: center;
+    font-size: 2rem;
   }
-  
+
   .services-list {
-    list-style-type: none;
-    padding: 0;
-    font-size: 1.125rem; /* lg */
-    color: #E1D9D0; /* beige */
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Centra la lista horizontalmente */
+    font-size: 1rem;
   }
-  
-  .services-list li {
-    display: flex;
-    align-items: center;
-    font-size: 1.125rem; /* lg */
-    color: #E1D9D0; /* beige */
-    margin-bottom: 1rem;
-  }
-  
-  .service-icon {
-    margin-right: 0.5rem;
-    color: #E1D9D0; /* beige */
-  }
-  
+
   .textP2 {
-    margin-bottom: 1.5rem; /* 6 */
-    font-size: 1.125rem; /* lg */
-    color: #E1D9D0; /* beige */
-    width: 100%;
-    justify-content: center;
-    text-align: center;
-    margin: auto;
+    width: 90%;
+    font-size: 1rem;
   }
-  
+
   .imgSer {
-    width: 22%;
-    height: 22%;
-    object-fit: cover;
-    align-items: left;
-    margin: auto;
+    width: 30%;
+    height: auto;
   }
-  
-  @media (max-width: 400px) {
-    .sContainer {
-      flex-direction: column-reverse;
-    }
-  
-    .imgSer {
-      width: auto;
-      height: auto;
-      margin-top: 30px;
-    }
-  
-    .textP2 {
-      width: auto;
-    }
+}
+
+@media (max-width: 480px) {
+  .secSer {
+    width: 100%;
+    padding: 1rem;
   }
-  
+
+  .title {
+    font-size: 1.75rem;
+  }
+
+  .services-list {
+    font-size: 0.875rem;
+  }
+
+  .textP2 {
+    font-size: 0.875rem;
+  }
+
+  .imgSer {
+    width: 50%;
+    height: auto;
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .sContainer {
+    flex-direction: column-reverse;
+  }
+
+  .imgSer {
+    width: 80%;
+    height: auto;
+    margin-top: 1rem;
+  }
+
+  .textP2 {
+    width: 100%;
+    font-size: 0.875rem;
+  }
+}

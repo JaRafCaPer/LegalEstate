@@ -2,6 +2,7 @@
   padding: 2rem;
   background-color: #5e747f; /* mediumGray */
   font-family: 'Asen Pro', sans-serif;
+  box-sizing: border-box; /* Asegura que el padding se incluya en el tamaño total */
 }
 
 .container {
@@ -10,7 +11,7 @@
 }
 
 .title {
-  font-size: 2.5rem;
+  font-size: 2.5rem; /* 40px */
   text-align: center;
   margin-bottom: 2rem;
   color: #E1D9D0; /* lightGray */
@@ -22,7 +23,7 @@
 }
 
 .about-description {
-  font-size: 1.125rem;
+  font-size: 1.125rem; /* 18px */
   color: #E1D9D0; /* lightGray */
   margin-bottom: 1.5rem;
 }
@@ -34,4 +35,60 @@
 .carousel .slide img {
   width: 70%;
   border-radius: 8px;
+  max-width: 100%; /* Asegura que la imagen no se desborde */
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .container {
+    max-width: 90%;
+  }
+
+  .title {
+    font-size: 2rem; /* 32px */
+  }
+
+  .about-description {
+    font-size: 1rem; /* 16px */
+  }
+}
+
+@media (max-width: 768px) {
+  .about-us {
+    padding: 1.5rem;
+  }
+
+  .container {
+    max-width: 100%;
+  }
+
+  .title {
+    font-size: 1.75rem; /* 28px */
+  }
+
+  .about-description {
+    font-size: 0.875rem; /* 14px */
+  }
+
+  .carousel .slide img {
+    width: 80%;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-us {
+    padding: 1rem;
+  }
+
+  .title {
+    font-size: 1.5rem; /* 24px */
+  }
+
+  .about-description {
+    font-size: 0.75rem; /* 12px */
+  }
+
+  .carousel .slide img {
+    width: 90%;
+  }
 }

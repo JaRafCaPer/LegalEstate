@@ -4,14 +4,15 @@
   justify-content: center;
   text-align: center;
   background-color: #E1D9D0; 
-  padding: 2.5rem; 
+  padding: 2.5rem;
   min-height: 80vh;
   background-size: cover;
+  flex-direction: row; /* Aseguramos que los elementos estén en una fila */
 }
 
 .banner-text {
   flex: 1;
-  padding: 2.5rem; 
+  padding: 2.5rem;
   color: #5e747f; 
   text-align: justify;
   width: 60%;
@@ -19,20 +20,20 @@
 }
 
 .banner-text h1 {
-  font-size: 2.25rem; 
+  font-size: 2.25rem; /* 36px */
   font-weight: bold;
   margin-bottom: 1rem;
   text-align: center; 
 }
 
 .banner-text p {
-  margin-bottom: 1.5rem; 
-  font-size: 1.125rem; 
+  margin-bottom: 1.5rem;
+  font-size: 1.125rem; /* 18px */
   text-align: justify;
 }
 
 .banner-text button {
-  background-color: #5e747f;
+  background-color: #5e747f; 
   color: #E1D9D0; 
   padding: 1rem; 
   border-radius: 0.375rem; 
@@ -49,21 +50,50 @@
   display: flex;
   justify-content: center;
   width: 80%;
+  margin: 0 auto; /* Centrar la imagen */
 }
 
 .banner-image img {
-  max-width: fit-content;
   width: 90%;
   height: auto;
   border-radius: 40px;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 768px) {
   .banner {
     flex-direction: column-reverse;
+    padding: 1.5rem;
   }
+  
+  .banner-text {
+    width: 90%;
+    padding: 1rem;
+  }
+  
+  .banner-text h1 {
+    font-size: 1.75rem; /* 28px */
+  }
+  
+  .banner-text p {
+    font-size: 1rem; /* 16px */
+  }
+  
   .banner-image {
-    width: 100vw;
-    height: auto;
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .banner-text h1 {
+    font-size: 1.5rem; /* 24px */
+  }
+  
+  .banner-text p {
+    font-size: 0.875rem; /* 14px */
+  }
+  
+  .banner-image img {
+    width: 100%;
+    border-radius: 20px;
   }
 }

@@ -1,7 +1,8 @@
 .services {
   padding: 2rem;
-  background-color: #5e747f; 
+  background-color: #5e747f; /* mediumGray */
   font-family: 'Asen Pro', sans-serif;
+  box-sizing: border-box; /* Asegura que el padding se incluya en el tamaño total */
 }
 
 .container {
@@ -10,10 +11,10 @@
 }
 
 .services-title {
-  font-size: 3.5rem;
+  font-size: 3.5rem; /* 56px */
   text-align: center;
   margin-bottom: 2rem;
-  color: #E1D9D0; 
+  color: #E1D9D0; /* beige */
 }
 
 .services-carousel .carousel .slide {
@@ -21,7 +22,7 @@
 }
 
 .service-card {
-  background-color: #E1D9D0; 
+  background-color: #E1D9D0; /* beige */
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
@@ -44,7 +45,7 @@
 .service-image {
   width: 100%;
   height: 100%;
-  object-fit: contain; /* Ensure the image fits within the container without being cut */
+  object-fit: cover; /* Ensure the image fits within the container without being cut */
 }
 
 .service-content {
@@ -52,22 +53,42 @@
 }
 
 .service-title {
-  font-size: 2.5rem;
-  color: #5e747f; 
+  font-size: 2.5rem; /* 40px */
+  color: #5e747f; /* lightGray */
   margin: 1rem;
+  text-align: center; /* Center the title text */
 }
 
 .service-description {
-  font-size: 1rem;
-  color: #5e747f; 
+  font-size: 1rem; /* 16px */
+  color: #5e747f; /* lightGray */
   line-height: 1.6;
   margin: 1.5rem;
+  text-align: justify; /* Justify the description text */
 }
 
 /* Responsive adjustments */
+@media (max-width: 1024px) {
+  .services-title {
+    font-size: 2.5rem; /* 40px */
+  }
+
+  .service-card {
+    max-width: 90%; /* Slightly smaller width for smaller screens */
+  }
+
+  .service-title {
+    font-size: 2rem; /* 32px */
+  }
+
+  .service-description {
+    font-size: 0.875rem; /* 14px */
+  }
+}
+
 @media (max-width: 768px) {
   .services-title {
-    font-size: 2.5rem;
+    font-size: 2rem; /* 32px */
   }
 
   .service-card {
@@ -76,17 +97,25 @@
   }
 
   .service-title {
-    font-size: 2rem;
+    font-size: 1.75rem; /* 28px */
   }
 
   .service-description {
-    font-size: 0.875rem; /* Smaller font size */
+    font-size: 0.875rem; /* 14px */
+  }
+
+  .service-image-container {
+    height: auto; /* Let the image container adjust height */
   }
 }
 
 @media (max-width: 480px) {
+  .services {
+    padding: 1.5rem;
+  }
+
   .services-title {
-    font-size: 2rem;
+    font-size: 1.75rem; /* 28px */
   }
 
   .service-card {
@@ -95,11 +124,11 @@
   }
 
   .service-title {
-    font-size: 1.5rem;
+    font-size: 1.5rem; /* 24px */
   }
 
   .service-description {
-    font-size: 0.75rem; /* Smaller font size */
+    font-size: 0.75rem; /* 12px */
   }
 
   .service-image-container {

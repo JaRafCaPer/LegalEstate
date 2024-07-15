@@ -2,6 +2,7 @@
   width: 70%;
   margin: auto;
   height: 500px;
+  box-sizing: border-box; /* Aseguramos que el padding y borde se incluyan en el tamaño total */
 }
 
 .map {
@@ -9,7 +10,7 @@
   width: 100%;
 }
 
-/* Responsive adjustments */
+/* Ajustes responsivos */
 @media (max-width: 768px) {
   .map-container {
     width: 90%;

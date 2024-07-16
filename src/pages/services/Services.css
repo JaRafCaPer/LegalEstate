@@ -1,8 +1,8 @@
 .services {
   padding: 2rem;
-  background-color: #5e747f; /* mediumGray */
+  background-color: #5e747f;
   font-family: 'Asen Pro', sans-serif;
-  box-sizing: border-box; /* Asegura que el padding se incluya en el tamaño total */
+  box-sizing: border-box;
 }
 
 .container {
@@ -11,24 +11,25 @@
 }
 
 .services-title {
-  font-size: 3.5rem; /* 56px */
+  font-size: 3.5rem;
   text-align: center;
   margin-bottom: 2rem;
-  color: #E1D9D0; /* beige */
+  color: #E1D9D0;
 }
 
 .services-carousel .carousel .slide {
-  background: none; /* Remove background color from carousel slides */
+  background: none;
 }
 
 .service-card {
-  background-color: #E1D9D0; /* beige */
+  background-color: #E1D9D0;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   transition: transform 0.3s, box-shadow 0.3s;
   margin: 0 auto;
-  max-width: 800px; /* Limit the width of each card */
+  max-width: 800px;
+  height: 100%;
 }
 
 .service-card:hover {
@@ -38,14 +39,14 @@
 
 .service-image-container {
   width: 100%;
-  height: 40%;
+  height: 80%;
   overflow: hidden;
 }
 
 .service-image {
   width: 100%;
-  height: 100%;
-  object-fit: cover; /* Ensure the image fits within the container without being cut */
+  height: auto;
+  object-fit: cover;
 }
 
 .service-content {
@@ -53,59 +54,60 @@
 }
 
 .service-title {
-  font-size: 2.5rem; /* 40px */
-  color: #5e747f; /* lightGray */
+  font-size: 2.5rem;
+  color: #5e747f;
   margin: 1rem;
-  text-align: center; /* Center the title text */
+  text-align: center;
 }
 
 .service-description {
-  font-size: 1rem; /* 16px */
-  color: #5e747f; /* lightGray */
+  font-size: 1rem;
+  color: #5e747f;
   line-height: 1.6;
   margin: 1.5rem;
-  text-align: justify; /* Justify the description text */
+  text-align: justify;
 }
 
-/* Responsive adjustments */
 @media (max-width: 1024px) {
   .services-title {
-    font-size: 2.5rem; /* 40px */
+    font-size: 2.5rem;
   }
 
   .service-card {
-    max-width: 90%; /* Slightly smaller width for smaller screens */
+    max-width: 90%;
+    height: 120%;
   }
 
   .service-title {
-    font-size: 2rem; /* 32px */
+    font-size: 2rem;
   }
 
   .service-description {
-    font-size: 0.875rem; /* 14px */
+    font-size: 0.875rem;
   }
 }
 
 @media (max-width: 768px) {
   .services-title {
-    font-size: 2rem; /* 32px */
+    font-size: 2rem;
   }
 
   .service-card {
-    max-width: 100%; /* Full width for smaller screens */
+    max-width: 100%;
+    height: 120%;
     margin: 1rem;
   }
 
   .service-title {
-    font-size: 1.75rem; /* 28px */
+    font-size: 1.75rem;
   }
 
   .service-description {
-    font-size: 0.875rem; /* 14px */
+    font-size: 0.875rem;
   }
 
   .service-image-container {
-    height: auto; /* Let the image container adjust height */
+    height: auto;
   }
 }
 
@@ -115,23 +117,24 @@
   }
 
   .services-title {
-    font-size: 1.75rem; /* 28px */
+    font-size: 1.75rem;
   }
 
   .service-card {
-    max-width: 100%; /* Full width for smaller screens */
+    max-width: 100%;
+    height: 120%;
     margin: 1rem;
   }
 
   .service-title {
-    font-size: 1.5rem; /* 24px */
+    font-size: 1.5rem;
   }
 
   .service-description {
-    font-size: 0.75rem; /* 12px */
+    font-size: 0.75rem;
   }
 
   .service-image-container {
-    height: auto; /* Let the image container adjust height */
+    
   }
 }

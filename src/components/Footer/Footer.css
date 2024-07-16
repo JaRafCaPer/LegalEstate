@@ -46,6 +46,7 @@
 .social-icons {
   display: flex;
   gap: 1rem;
+  justify-content: center; /* Asegura que los íconos estén uno al lado del otro */
 }
 
 .social-icons a {
@@ -126,7 +127,7 @@
   }
 
   .social-icons {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
   }
 

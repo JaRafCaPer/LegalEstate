@@ -1,8 +1,8 @@
 .header {
-  background-color: #BDBDBC; /* mediumGray */
+  background-color: #BDBDBC; 
   background-size: cover;
   display: flex;
-  justify-content: space-between; /* Aseguramos que los elementos se distribuyan correctamente */
+  justify-content: space-between; 
   align-items: center;
   padding: 1rem;
 }
@@ -12,6 +12,7 @@
   justify-content: space-between;
   align-items: center;
   width: auto;
+  font-size: 0.923rem;
 }
 
 .imgCon {
@@ -36,6 +37,7 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
+    font-size: 0.9rem;
   }
 
   .imgLeest {
@@ -51,7 +53,7 @@
   }
 
   .nav {
-    font-size: 0.675rem; /* 14px */
+    font-size: 0.675rem; 
   }
 
   .imgLeest {

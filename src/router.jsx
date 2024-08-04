@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/home/home.jsx';
 import About from './pages/about/About.jsx';
 import Services from './pages/services/Services.jsx';
-import Team from './pages/Team.jsx';
+import Team from './pages/Team/Team.jsx';
 import Contact from './pages/Contact.jsx';
 
 const AppRouter = () => {

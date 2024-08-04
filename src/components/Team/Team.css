@@ -1,0 +1,166 @@
+.team-section {
+  padding: 3rem 1rem;
+  background-color: #3a4954; 
+  font-family: 'Asen Pro', sans-serif;
+  color: #E1D9D0;
+}
+
+.container {
+  
+  max-width: auto;
+  margin: 0 auto;
+  
+}
+
+.title2 {
+  font-size: 2.5rem; /* 40px */
+  text-align: center;
+  margin-bottom: 3.5rem; 
+  color: #E1D9D0;
+}
+
+.description {
+  font-size: 1.125rem; /* 18px */
+  margin-bottom: 3.5rem; 
+  margin-top: 3.5rem;
+  text-align: center;
+  line-height: 1.6; 
+  width: 100%;
+}
+
+.subsection-title {
+  font-size: 2.5rem; /* 32px */
+  margin-top: 3.5rem; 
+  margin-bottom: 3.5rem; 
+  text-align: center;
+  font-family: 'Asen Pro', sans-serif;
+  font-weight: bold;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  width: 50%;
+  margin: 10% 25%;
+  
+  font-size: 1.125rem;
+  line-height: 1.6;
+}
+
+.list li {
+  margin-bottom: 1.5rem; 
+}
+
+.list p {
+  margin-top: 0.5rem;
+  margin-left: 1.5rem; 
+  line-height: 1.6; 
+}
+
+.carousel .react-multi-carousel-item {
+  display: flex;
+  justify-content: center;
+}
+
+.image-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.team-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+}
+
+.team-image:hover {
+  transform: scale(1.2);
+}
+
+.team-banner {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+  box-shadow:#3d4d58 0px 0px 10px;
+}
+.team-banner2 {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  box-shadow:#E1D9D0 0px 0px 10px;
+  background-color: #E1D9D0;
+}
+@media (max-width: 1024px) {
+  .title {
+    font-size: 2rem; /* 32px */
+  }
+
+  .description {
+    font-size: 1rem; /* 16px */
+  }
+
+  .subsection-title {
+    font-size: 1.75rem; /* 28px */
+  }
+
+  .list {
+    font-size: 0.875rem; /* 14px */
+  }
+
+  .list p {
+    margin-left: 1rem; 
+  }
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 1.75rem; /* 28px */
+  }
+
+  .description {
+    font-size: 0.875rem; /* 14px */
+  }
+
+  .subsection-title {
+    font-size: 1.5rem; /* 24px */
+  }
+
+  .list {
+    font-size: 0.75rem; /* 12px */
+    width: 80%;
+    margin: 2.5rem 10%;
+  }
+
+  .image-container {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 1.5rem; /* 24px */
+  }
+
+  .description {
+    font-size: 0.75rem; /* 12px */
+  }
+
+  .subsection-title {
+    font-size: 1.25rem; /* 20px */
+  }
+
+  .list {
+    font-size: 0.75rem; /* 12px */
+  }
+
+  .list p {
+    margin-left: 0.5rem; 
+  }
+
+  .image-container {
+    width: 100%;
+  }
+}

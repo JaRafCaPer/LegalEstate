@@ -1,13 +1,15 @@
 .map-container {
-  width: 70%;
+  width: 100%;
   margin: auto;
-  height: 500px;
-  box-sizing: border-box; /* Aseguramos que el padding y borde se incluyan en el tamaño total */
+  height: 600px;
+  box-sizing: border-box; 
+  background-color: #E1D9D0;
 }
 
 .map {
   height: 100%;
   width: 100%;
+  background-color: #E1D9D0;
 }
 
 /* Ajustes responsivos */

@@ -9,6 +9,8 @@ import imgCarousel2 from '../../assets/images/Frame 125.jpg';
 import imgCarousel3 from '../../assets/images/Frame 127.jpg';
 import imgCarousel4 from '../../assets/images/Frame 125.jpg';
 import imgCarousel5 from '../../assets/images/Frame 129.jpg';
+import imgAboutUs from '../../assets/images/image316.png';
+import imgLeest from '../../assets/images/14.png';
 import './About.css';
 
 const About = () => {
@@ -19,10 +21,10 @@ const About = () => {
       <section className="about-us">
         <div className="container">
           <div className="about-section">
+            <img src={imgLeest} alt="" />
+            <img src={imgAboutUs} alt="Equipo 1" />
           </div>
-          <div className="about-section">
-            <p className="about-description">Nuestro equipo está compuesto por profesionales apasionados y dedicados, comprometidos a brindar soluciones adecuadas y eficaces para las necesidades inmobiliarias de nuestros clientes. Nos destacamos por nuestro conocimiento y experiencia en el sector.</p>
-          </div>
+          
           <div className="about-section">
             <p className="about-description">En Legal Estate, garantizamos la opción más segura y confiable para sus transacciones inmobiliarias. Nuestro enfoque integral y nuestra dedicación al cliente nos permiten superar las expectativas en cada interacción.</p>
           </div>

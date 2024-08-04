@@ -1,8 +1,8 @@
 .about-us {
   padding: 2rem;
-  background-color: #5e747f; /* mediumGray */
+  background-color: #E1D9D0 ; 
   font-family: 'Asen Pro', sans-serif;
-  box-sizing: border-box; /* Asegura que el padding se incluya en el tamaño total */
+  box-sizing: border-box; 
 }
 
 .container {
@@ -14,33 +14,33 @@
   font-size: 2.25rem; /* 36px */
   text-align: center;
   margin-bottom: 1rem;
-  color: #E1D9D0; /* lightGray */
+  color: #3a4954; 
 }
 
 .about-section {
-  margin-bottom: 1.5rem;
+  margin-bottom: 3.5rem;
   text-align: center;
 }
 
 .about-description {
-  font-size: 1.125rem; /* 18px */
-  color: #E1D9D0; /* lightGray */
+  font-size: 1.5rem; /* 18px */
+  color: #3a4954; 
   margin-bottom: 1.5rem;
   line-height: 1.6;
 }
 
 .carousel-section {
-  margin-top: 2rem;
+  margin: 2rem;
 }
 
 .carousel .slide img {
   width: 60%;
   height: auto;
   border-radius: 8px;
-  max-width: 100%; /* Asegura que la imagen no se desborde */
+  max-width: 100%; 
 }
 
-/* Responsive adjustments */
+
 @media (max-width: 1024px) {
   .container {
     max-width: 90%;

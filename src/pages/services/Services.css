@@ -1,13 +1,13 @@
 .services {
   padding: 2rem;
-  background-color: #5e747f;
+  background-color: #3a4954;
   font-family: 'Asen Pro', sans-serif;
   box-sizing: border-box;
 }
 
 .container {
   max-width: 1200px;
-  margin: 0 auto;
+  margin-bottom: 10%;
 }
 
 .services-title {

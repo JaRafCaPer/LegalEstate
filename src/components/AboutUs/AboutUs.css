@@ -4,21 +4,26 @@
   display: flex;
   flex-direction: row; 
   text-align: center;
-  background-color: #e1d9d0b4;
+  background-color: #E1D9D0;
   background-size: cover;
   padding: 2rem; 
   box-sizing: border-box; 
+  font-family: 'Asen Pro', sans-serif;
 }
 
 .imgAbout {
   flex: 1;
   display: flex;
   justify-content: center;
-  width: 80%;
-  max-width: 500px; 
+  width: auto;
+  max-width: 700px; 
   height: auto;
-  margin: 0 auto; 
+  margin:  auto; 
   padding: 20px;
+}
+.textAbout{
+  width: 60%;
+  margin: auto;
 }
 
 .title4 {
@@ -31,7 +36,7 @@
 
 .textP {
   margin-bottom: 1.5rem;
-  font-size: 1.125rem; /* 18px */
+  font-size: 1.5rem; /* 18px */
   color: #5e747f;
   width: 70%;
   text-align: center;

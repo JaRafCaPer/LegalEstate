@@ -2,13 +2,12 @@
   width: 100%;
   height: auto;
   display: flex;
-  flex-direction: row; /* Para asegurarnos de que el diseño sea flexible */
-  align-items: center;
+  flex-direction: row; 
   text-align: center;
   background-color: #e1d9d0b4;
   background-size: cover;
-  padding: 2rem; /* Añadir padding para mejorar el espacio */
-  box-sizing: border-box; /* Incluir padding y borde en el ancho y alto totales */
+  padding: 2rem; 
+  box-sizing: border-box; 
 }
 
 .imgAbout {
@@ -16,9 +15,10 @@
   display: flex;
   justify-content: center;
   width: 80%;
-  max-width: 500px; /* Limitar el ancho máximo */
+  max-width: 500px; 
   height: auto;
-  margin: 0 auto; /* Centrar la imagen */
+  margin: 0 auto; 
+  padding: 20px;
 }
 
 .title4 {
@@ -40,13 +40,13 @@
 
 @media (max-width: 768px) {
   .mainContainer {
-    flex-direction: column;
-    padding: 1rem; /* Reducir el padding en pantallas más pequeñas */
+    flex-direction: column-reverse;
+    padding: 1rem; 
   }
 
   .imgAbout {
     width: 100%;
-    max-width: none; /* Permitir que la imagen ocupe todo el ancho disponible */
+    max-width: none; 
   }
 
   .title4 {

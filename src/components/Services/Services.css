@@ -3,12 +3,12 @@
   height: auto;
   display: flex;
   align-items: center;
-  justify-content: center; /* Centra el contenido horizontalmente */
+  justify-content: center; 
   text-align: center;
-  background-color: #5e747f; /* lightGray */
+  background-color: #3a4954; 
   background-size: cover;
   padding: 2rem;
-  box-sizing: border-box; /* Asegura que el padding se incluya en el tamaño total */
+  box-sizing: border-box; 
 }
 
 .secSer {
@@ -19,46 +19,46 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #5e747f; /* lightGray */
-  box-sizing: border-box; /* Asegura que el padding se incluya en el tamaño total */
+  background-color: #3a4954; 
+  box-sizing: border-box; 
 }
 
 .title {
-  font-size: 2.25rem; /* 4xl */
+  font-size: 2.25rem; 
   font-weight: bold;
   margin: 1rem;
-  color: #E1D9D0; /* beige */
+  color: #E1D9D0; 
   text-align: center;
 }
 
 .services-list {
   list-style-type: none;
   padding: 0;
-  font-size: 1.125rem; /* lg */
-  color: #E1D9D0; /* beige */
+  font-size: 1.125rem; 
+  color: #E1D9D0; 
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center; /* Centra la lista horizontalmente */
-  gap: 1rem; /* Añadir espacio entre los elementos de la lista */
+  align-items: center; 
+  gap: 1rem; 
 }
 
 .services-list li {
   display: flex;
   align-items: center;
-  font-size: 1.125rem; /* lg */
-  color: #E1D9D0; /* beige */
+  font-size: 1.125rem; 
+  color: #E1D9D0; 
 }
 
 .service-icon {
   margin-right: 0.5rem;
-  color: #E1D9D0; /* beige */
+  color: #E1D9D0; 
 }
 
 .textP2 {
-  margin-bottom: 1.5rem; /* 6 */
-  font-size: 1.125rem; /* lg */
-  color: #E1D9D0; /* beige */
+  margin-bottom: 1.5rem; 
+  font-size: 1.125rem; 
+  color: #E1D9D0; 
   width: 100%;
   justify-content: center;
   text-align: center;
@@ -66,10 +66,12 @@
 }
 
 .imgSer {
-  width: 22%;
-  height: 22%;
+  width: auto;
+  height: auto;
   object-fit: cover;
   margin: auto;
+  box-shadow: #647f8d 0px 0px 10px;
+  background-color: #E1D9D0;
 }
 
 @media (max-width: 768px) {
@@ -127,7 +129,7 @@
   }
 
   .imgSer {
-    width: 50%;
+    width: auto;
     height: auto;
     margin-top: 1rem;
   }

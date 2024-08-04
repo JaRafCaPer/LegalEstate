@@ -34,7 +34,8 @@
 }
 
 .carousel .slide img {
-  width: 70%;
+  width: 60%;
+  height: auto;
   border-radius: 8px;
   max-width: 100%; /* Asegura que la imagen no se desborde */
 }

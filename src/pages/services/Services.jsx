@@ -4,18 +4,18 @@ import Service from '../../components/Services/Services.jsx';
 import Footer from '../../components/Footer/Footer.jsx';
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import imgS1 from '../../assets/images/AsesoriaLegal.webp';
-import imgS2 from '../../assets/images/Compraventa1.webp';
+import imgS1 from '../../assets/images/Frame 128.jpg';
+import imgS2 from '../../assets/images/Frame 131.jpg';
 import imgS3 from '../../assets/images/Arriendo1.webp';
-import imgS4 from '../../assets/images/Proyectos1.webp';
-import imgS5 from '../../assets/images/ResConflictos.webp';
+import imgS4 from '../../assets/images/Frame 126.jpg';
+import imgS5 from '../../assets/images/Frame 127.jpg';
 import './Services.css';
 
 const servicesData = [
   {
     title: "Asesoría Legal Inmobiliaria",
     image: imgS1,
-    description: "Proveemos orientación legal en todas las fases de transacciones inmobiliarias, asegurando que cada operación se realice con total transparencia y seguridad jurídica."
+    description: " Ofrecemos asesoría legal especializada en transacciones inmobiliarias, garantizando la protección de los intereses de nuestros clientes y asegurando la legalidad y validez de cada operación."
   },
   {
     title: "Compra y Venta de Propiedades",

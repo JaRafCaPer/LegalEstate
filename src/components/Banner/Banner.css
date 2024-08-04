@@ -7,7 +7,7 @@
   padding: 2.5rem;
   min-height: 80vh;
   background-size: cover;
-  flex-direction: row; /* Aseguramos que los elementos estén en una fila */
+  flex-direction: row; 
 }
 
 .banner-text {
@@ -50,7 +50,7 @@
   display: flex;
   justify-content: center;
   width: 80%;
-  margin: 0 auto; /* Centrar la imagen */
+  margin: 0 auto; 
 }
 
 .banner-image img {
@@ -94,6 +94,6 @@
   
   .banner-image img {
     width: 100%;
-    border-radius: 20px;
+    
   }
 }

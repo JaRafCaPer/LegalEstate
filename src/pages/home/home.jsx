@@ -6,7 +6,7 @@ import Services from '../../components/Services/Services.jsx';
 import Team from '../../components/Team/Team.jsx';
 import Contact from '../../components/Contact/Contact.jsx';
 import Footer from '../../components/Footer/Footer.jsx';
-import imgLogo from '../../assets/images/4.png';
+import imgLogo from '../../assets/images/12.png';
 import './home.css';
 
 const Home = () => {
@@ -14,11 +14,11 @@ const Home = () => {
     <>
       <Header />
       <Banner />
+      <div className='imgContainer'>
+      <img src={imgLogo} alt="" className="imgLogo" />
+      </div>
       <AboutUs />
       <Services />
-     <div className='imgContainer'>
-      <img src={imgLogo} alt="" className="imgLogo" />
-     </div>
       <Footer />
     </>
   );

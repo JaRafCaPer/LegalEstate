@@ -1,5 +1,5 @@
 import React from 'react';
-import './Team.css';
+import './teamComp.css';
 import { Image } from 'react-bootstrap';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';

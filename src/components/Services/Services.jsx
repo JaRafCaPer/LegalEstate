@@ -7,14 +7,14 @@ const Services = () => {
   return (
     <div className='sContainer'>
       <section className="secSer">
-        <h2 className="title">Servicios</h2>
+        <h2 className="title3">Servicios</h2>
         <p className="textP2">
           En Legal Estate, ofrecemos una gama completa de servicios legales y de bienes raíces diseñados para satisfacer las necesidades únicas de nuestros clientes. Nuestro equipo de profesionales está comprometido a brindar asesoramiento experto y soluciones efectivas en cada etapa del proceso inmobiliario.
         </p>
         <p className="textP2">
           Nuestro compromiso es proporcionar un servicio excepcional que supere las expectativas de nuestros clientes, asegurando siempre su satisfacción y tranquilidad.
         </p>
-        <h3 className='title'>Conoce nuestros servicios:</h3>
+        <h3 className='title3'>Conoce nuestros servicios:</h3>
         <ol className="services-list">
           <li><FaCheckCircle className="service-icon" /><strong>Asesoría Legal Inmobiliaria</strong></li>
           <li><FaCheckCircle className="service-icon" /><strong>Compra y Venta de Propiedades</strong></li>

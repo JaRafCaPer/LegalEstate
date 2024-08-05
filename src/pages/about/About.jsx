@@ -9,8 +9,8 @@ import imgCarousel2 from '../../assets/images/Frame 125.jpg';
 import imgCarousel3 from '../../assets/images/Frame 127.jpg';
 import imgCarousel4 from '../../assets/images/Frame 125.jpg';
 import imgCarousel5 from '../../assets/images/Frame 129.jpg';
-import imgAboutUs from '../../assets/images/image316.png';
-import imgLeest from '../../assets/images/14.png';
+import imgDesktop from '../../assets/images/image316.png';
+import imgMobile from '../../assets/images/image3162.png';
 import './About.css';
 
 const About = () => {
@@ -21,8 +21,8 @@ const About = () => {
       <section className="about-us">
         <div className="container">
           <div className="about-section">
-            <img src={imgLeest} alt="" />
-            <img src={imgAboutUs} alt="Equipo 1" />
+          <img className='imgAboutUs-mobile' src={imgMobile} alt="Equipo móvil" />
+          <img className='imgAboutUs-desktop' src={imgDesktop} alt="Equipo PC" />
           </div>
           
           <div className="about-section">

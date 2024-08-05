@@ -15,13 +15,13 @@ const Services = () => {
           Nuestro compromiso es proporcionar un servicio excepcional que supere las expectativas de nuestros clientes, asegurando siempre su satisfacción y tranquilidad.
         </p>
         <h3 className='title3'>Conoce nuestros servicios:</h3>
-        <ol className="services-list">
+        <ul className="services-list">
           <li><FaCheckCircle className="service-icon" /><strong>Asesoría Legal Inmobiliaria</strong></li>
           <li><FaCheckCircle className="service-icon" /><strong>Compra y Venta de Propiedades</strong></li>
           <li><FaCheckCircle className="service-icon" /><strong>Gestión de Arrendamientos</strong></li>
           <li><FaCheckCircle className="service-icon" /><strong>Desarrollos Inmobiliarios</strong></li>
           <li><FaCheckCircle className="service-icon" /><strong>Resolución de Conflictos</strong></li>
-        </ol>
+        </ul>
       </section>
       <img src={imgClick} alt="Servicios Legales" className='imgSer' />
     </div>
@@ -29,3 +29,4 @@ const Services = () => {
 };
 
 export default Services;
+

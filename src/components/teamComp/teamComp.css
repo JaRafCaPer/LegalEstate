@@ -1,62 +1,48 @@
 .team-section {
-  padding: 3rem 1rem;
-  background-color: #3a4954; 
+  padding: 2rem;
+  background-color: #3a4954; /* mediumGray */
   font-family: 'Asen Pro', sans-serif;
-  color: #E1D9D0;
+  color: #E1D9D0; /* beige */
 }
 
 .container {
-  
-  max-width: auto;
+  max-width: 1200px;
   margin: 0 auto;
-  
 }
 
 .title2 {
   font-size: 2.5rem; /* 40px */
   text-align: center;
-  margin-bottom: 3.5rem; 
-  color: #E1D9D0;
+  margin-bottom: 1rem;
 }
 
 .description {
   font-size: 1.125rem; /* 18px */
-  margin-bottom: 3.5rem; 
-  margin-top: 3.5rem;
+  margin-bottom: 2rem;
   text-align: center;
-  line-height: 1.6; 
-  width: 100%;
 }
 
 .subsection-title {
-  font-size: 2.5rem; /* 32px */
-  margin-top: 3.5rem; 
-  margin-bottom: 3.5rem; 
+  font-size: 2rem; /* 32px */
+  margin-top: 2rem;
+  margin-bottom: 1rem;
   text-align: center;
-  font-family: 'Asen Pro', sans-serif;
-  font-weight: bold;
 }
 
 .list {
   list-style: none;
   padding: 0;
   margin: 0;
-  text-align: center;
-  width: 50%;
-  margin: 5% 25%;
-  
-  font-size: 1.125rem;
-  line-height: 1.6;
+  text-align: left;
 }
 
 .list li {
-  margin-bottom: 1.5rem; 
+  margin-bottom: 1rem;
 }
 
 .list p {
   margin-top: 0.5rem;
-  margin-left: 1.5rem; 
-  line-height: 1.6; 
+  margin-left: 1rem;
 }
 
 .carousel .react-multi-carousel-item {
@@ -77,24 +63,26 @@
 }
 
 .team-image:hover {
-  transform: scale(1.2);
+  transform: scale(1.05);
 }
 
-.team-banner {
-  width: 100%;
-  height: 600px;
-  object-fit: cover;
-  box-shadow:#3d4d58 0px 0px 10px;
-}
-.team-banner2 {
+.team-banner-desktop {
+  display: block;
   width: 100%;
   height: auto;
-  object-fit: cover;
-  box-shadow:#E1D9D0 0px 0px 10px;
-  background-color: #E1D9D0;
+  margin-bottom: 2rem;
 }
+
+.team-banner-mobile {
+  display: none;
+  width: 100%;
+  height: auto;
+  margin-bottom: 2rem;
+}
+
+/* Responsive adjustments */
 @media (max-width: 1024px) {
-  .title {
+  .title2 {
     font-size: 2rem; /* 32px */
   }
 
@@ -109,14 +97,10 @@
   .list {
     font-size: 0.875rem; /* 14px */
   }
-
-  .list p {
-    margin-left: 1rem; 
-  }
 }
 
 @media (max-width: 768px) {
-  .title {
+  .title2 {
     font-size: 1.75rem; /* 28px */
   }
 
@@ -130,8 +114,6 @@
 
   .list {
     font-size: 0.75rem; /* 12px */
-    width: 80%;
-    margin: 2.5rem 10%;
   }
 
   .image-container {
@@ -140,7 +122,7 @@
 }
 
 @media (max-width: 480px) {
-  .title {
+  .title2 {
     font-size: 1.5rem; /* 24px */
   }
 
@@ -156,11 +138,15 @@
     font-size: 0.75rem; /* 12px */
   }
 
-  .list p {
-    margin-left: 0.5rem; 
-  }
-
   .image-container {
     width: 100%;
+  }
+
+  .team-banner-desktop {
+    display: none;
+  }
+
+  .team-banner-mobile {
+    display: block;
   }
 }

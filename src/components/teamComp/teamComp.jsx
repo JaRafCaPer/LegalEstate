@@ -8,8 +8,9 @@ import img2 from '../../assets/images/Frame 130.jpg';
 import img3 from '../../assets/images/Frame 127.jpg';
 import img4 from '../../assets/images/real4.jpg';
 import img5 from '../../assets/images/real12.jpg';
-import Img12 from '../../assets/images/image317.png';
-import Img13 from '../../assets/images/13.png';
+import Img12 from '../../assets/images/13.png';
+import Img13Desktop from '../../assets/images/image317.png';
+import Img13Mobile from '../../assets/images/image3172.png';
 
 const Team = () => {
   const teamImages = [img1, img2, img3, img4, img5];
@@ -39,7 +40,8 @@ const Team = () => {
         <p className='description'>
           En Legal Estate, contamos con un equipo multidisciplinario compuesto por abogados especializados, asesores inmobiliarios, asistentes, comerciales y un dedicado equipo de gestión humana. Cada miembro de nuestro equipo aporta su experiencia y conocimientos únicos para ofrecer soluciones integrales y personalizadas a nuestros clientes.
         </p>
-        <img src={Img13} alt="Equipo de trabajo" className='team-banner' />
+        <img src={Img13Desktop} alt="Equipo de trabajo" className='team-banner-desktop' />
+        <img src={Img13Mobile} alt="Equipo de trabajo" className='team-banner-mobile' />
         <h2 className='subsection-title'>Excelencia y Experiencia:</h2>
         <ol className='list'>
           <li><strong>Experiencia Comprobada:</strong>
@@ -87,3 +89,4 @@ const Team = () => {
 };
 
 export default Team;
+

@@ -12,9 +12,13 @@
   justify-content: space-between;
   align-items: center;
   width: auto;
-  font-size: 0.923rem;
+  
 }
-
+.list-nav a{
+  font-size: 1rem;
+  display: inline-block;
+  margin: 1rem;
+}
 .imgCon {
   width: 50%;
   height: auto;
@@ -37,7 +41,7 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
-    font-size: 0.9rem;
+    
   }
 
   .imgLeest {
@@ -53,7 +57,12 @@
   }
 
   .nav {
-    font-size: 0.675rem; 
+   
+  }
+  .list-nav a{
+    font-size: 1rem;
+    display: inline-block;
+    margin: 0.3rem;
   }
 
   .imgLeest {

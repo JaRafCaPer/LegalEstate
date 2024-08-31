@@ -3,26 +3,25 @@
   flex-direction: column;
   align-items: center;
   padding: 2rem;
-  background-color: #3a4954; /* lightGray */
-  color: #E1D9D0; /* beige */
+  background-color: #3a4954;
+  color: #E1D9D0;
   font-family: 'Asen Pro', sans-serif;
   box-sizing: border-box;
 }
 
 .secSer {
-  max-width: 800px;
-  text-align: center;
+  max-width: 80%;
+  text-align: justify;
   margin-bottom: 2rem;
 }
 
 .title3 {
-  font-size: 2.25rem; /* 36px */
   margin-bottom: 1rem;
   color: #E1D9D0;
 }
 
 .textP2 {
-  font-size: 1.125rem; /* 18px */
+  
   margin-bottom: 1.5rem;
   line-height: 1.6;
 }
@@ -53,17 +52,11 @@
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
-  .title3 {
-    font-size: 2rem; /* 32px */
-  }
+  .title3 {}
 
-  .textP2 {
-    font-size: 1rem; /* 16px */
-  }
+  .textP2 {}
 
-  .services-list li {
-    font-size: 1rem; /* 16px */
-  }
+  .services-list li {}
 
   .imgSer {
     width: 80%;
@@ -71,17 +64,11 @@
 }
 
 @media (max-width: 480px) {
-  .title3 {
-    font-size: 1.75rem; /* 28px */
-  }
+  .title3 {}
 
-  .textP2 {
-    font-size: 0.875rem; /* 14px */
-  }
+  .textP2 {}
 
-  .services-list li {
-    font-size: 0.875rem; /* 14px */
-  }
+  .services-list li {}
 
   .imgSer {
     width: 90%;

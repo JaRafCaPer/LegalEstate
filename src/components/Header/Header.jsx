@@ -11,7 +11,7 @@ const Header = () => {
           <img src={logoTipo} alt="Legal Estate Logo" className="imgLeest" />
           
         </div>
-        <div className="space-x-4 text-mediumGray" style={{ marginRight: '6.25%' }}>
+        <div className="list-nav text-mediumGray" style={{ marginRight: '6.25%' }}>
           <Link to="/" className="text-textOnBeige hover:underline">Inicio</Link>
           <Link to="/about" className="text-textOnBeige hover:underline">Quiénes Somos</Link>
           <Link to="/services" className="text-textOnBeige hover:underline">Servicios</Link>

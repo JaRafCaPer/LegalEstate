@@ -27,7 +27,7 @@
   border: 1px solid #BDBDBC; 
   border-radius: 5px;
   margin-bottom: 1rem;
-  font-size: 1rem;
+   .: 1rem;
   transition: border-color 0.3s, box-shadow 0.3s;
 }
 
@@ -43,7 +43,7 @@
   padding: 1rem;
   border: none;
   border-radius: 5px;
-  font-size: 1rem;
+   .: 1rem;
   cursor: pointer;
   transition: background-color 0.3s;
 }
@@ -57,7 +57,7 @@
   display: flex;
   justify-content: center;
   gap: 1rem; 
-  font-size: 60px;
+   .: 60px;
   color: #5e747f; 
 }
 
@@ -101,15 +101,15 @@
 
   .contact-form input,
   .contact-form textarea {
-    font-size: 0.875rem;
+     .: 0.875rem;
   }
 
   .contact-form button {
-    font-size: 0.875rem;
+     .: 0.875rem;
     padding: 0.75rem;
   }
 
   .social-media a {
-    font-size: 1rem;
+     .: 1rem;
   }
 }

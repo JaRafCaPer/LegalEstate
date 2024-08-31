@@ -17,14 +17,14 @@
 }
 
 .footer-section h3 {
-  font-size: 1.5rem;
+   .: 1.5rem;
   margin-bottom: 1rem;
   text-align: center;
 }
 
 .footer-section p,
 .footer-section a {
-  font-size: 1rem;
+   .: 1rem;
   margin-bottom: 0.5rem;
   color: #EFEFEF; /* lightGray */
   text-decoration: none;
@@ -51,7 +51,7 @@
 
 .social-icons a {
   color: #EFEFEF; /* lightGray */
-  font-size: 1.5rem;
+   .: 1.5rem;
 }
 
 .footer-bottom {
@@ -59,7 +59,7 @@
   padding-top: 1rem;
   width: 100%;
   text-align: center;
-  font-size: 0.875rem;
+   .: 0.875rem;
 }
 
 /* Responsive adjustments */
@@ -88,12 +88,12 @@
   }
 
   .footer-section h3 {
-    font-size: 1.25rem;
+     .: 1.25rem;
   }
 
   .footer-section p,
   .footer-section a {
-    font-size: 0.875rem;
+     .: 0.875rem;
   }
 
   .social-icons {
@@ -103,7 +103,7 @@
   }
 
   .footer-bottom {
-    font-size: 0.75rem;
+     .: 0.75rem;
   }
 }
 
@@ -118,12 +118,12 @@
   }
 
   .footer-section h3 {
-    font-size: 1rem;
+     .: 1rem;
   }
 
   .footer-section p,
   .footer-section a {
-    font-size: 0.75rem;
+     .: 0.75rem;
   }
 
   .social-icons {
@@ -132,6 +132,6 @@
   }
 
   .footer-bottom {
-    font-size: 0.75rem;
+     .: 0.75rem;
   }
 }

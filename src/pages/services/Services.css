@@ -11,7 +11,7 @@
 }
 
 .services-title {
-  font-size: 3.5rem;
+   .: 3.5rem;
   text-align: center;
   margin-bottom: 2rem;
   color: #E1D9D0;
@@ -54,14 +54,14 @@
 }
 
 .service-title {
-  font-size: 2.5rem;
+   .: 2.5rem;
   color: #5e747f;
   margin: 1rem;
   text-align: center;
 }
 
 .service-description {
-  font-size: 1rem;
+   .: 1rem;
   color: #5e747f;
   line-height: 1.6;
   margin: 1.5rem;
@@ -70,7 +70,7 @@
 
 @media (max-width: 1024px) {
   .services-title {
-    font-size: 2.5rem;
+     .: 2.5rem;
   }
 
   .service-card {
@@ -79,17 +79,17 @@
   }
 
   .service-title {
-    font-size: 2rem;
+     .: 2rem;
   }
 
   .service-description {
-    font-size: 0.875rem;
+     .: 0.875rem;
   }
 }
 
 @media (max-width: 768px) {
   .services-title {
-    font-size: 2rem;
+     .: 2rem;
   }
 
   .service-card {
@@ -99,11 +99,11 @@
   }
 
   .service-title {
-    font-size: 1.75rem;
+     .: 1.75rem;
   }
 
   .service-description {
-    font-size: 0.875rem;
+     .: 0.875rem;
   }
 
   .service-image-container {
@@ -117,7 +117,7 @@
   }
 
   .services-title {
-    font-size: 1.75rem;
+     .: 1.75rem;
   }
 
   .service-card {
@@ -127,11 +127,11 @@
   }
 
   .service-title {
-    font-size: 1.5rem;
+     .: 1.5rem;
   }
 
   .service-description {
-    font-size: 0.75rem;
+     .: 0.75rem;
   }
 
   .service-image-container {

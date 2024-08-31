@@ -22,12 +22,13 @@
   padding: 20px;
 }
 .textAbout{
-  width: 60%;
+  width: 77%;
   margin: auto;
+  text-align: justify;
 }
 
 .title4 {
-  font-size: 2.25rem; /* 36px */
+   
   font-weight: bold;
   margin-bottom: 1rem;
   color: #5e747f;
@@ -36,10 +37,10 @@
 
 .textP {
   margin-bottom: 1.5rem;
-  font-size: 1.5rem; /* 18px */
+   
   color: #5e747f;
   width: 70%;
-  text-align: center;
+  text-align: justify;
   margin: auto;
 }
 
@@ -55,21 +56,21 @@
   }
 
   .title4 {
-    font-size: 1.75rem; /* 28px */
+    
   }
 
   .textP {
     width: 90%;
-    font-size: 1rem; /* 16px */
+     
   }
 }
 
 @media (max-width: 480px) {
   .title4 {
-    font-size: 1.5rem; /* 24px */
+
   }
 
   .textP {
-    font-size: 0.875rem; /* 14px */
+    width: 100%;
   }
 }

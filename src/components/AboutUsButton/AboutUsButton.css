@@ -1,0 +1,40 @@
+.containerButton2 {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Aligns content vertically to the center */
+  padding: 2% 0;
+  background-color: #E1D9D0;
+}
+
+.about-us-button {
+  background-color: #3a4954;
+  color: #E1D9D0;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  font-family: 'Asen Pro', sans-serif;
+}
+
+.about-us-button:hover {
+  background-color: #5e747f;
+  transform: scale(1.05);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .containerButton2 {
+    padding: 5%;
+  }
+}
+
+@media (max-width: 480px) {
+  .containerButton2 {
+    flex-direction: column;
+    padding: 5%;
+  }
+  .about-us-button {
+    width: 80%; /* Button width adjusts for smaller screens */
+  }
+}

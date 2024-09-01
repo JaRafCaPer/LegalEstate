@@ -1,0 +1,123 @@
+.services {
+  padding: 2rem;
+  background-color: #3a4954;
+  font-family: 'Asen Pro', sans-serif;
+  box-sizing: border-box;
+  width: auto;
+}
+
+.container-services {
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+}
+.slider-wrapper {
+  width: 50%;
+}
+
+.services-title {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #E1D9D0;
+}
+
+.services-carousel .carousel .slide {
+  background: none;
+}
+
+.service-card {
+  background-color: whitesmoke;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+  margin: 0 auto;
+  width: 60%;
+ 
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.service-image-container {
+  width: 100%;
+  height: 30%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.service-content {
+  padding: 1.5rem;
+  
+}
+
+.service-title {
+  color: #5e747f;
+  margin: 1rem;
+  text-align: center;
+}
+
+.service-description {
+  color: #5e747f;
+  line-height: 1.6;
+  margin: 5% 15%;
+  text-align: justify;
+  width: 70%;
+}
+
+@media (max-width: 1024px) {
+  .service-card {
+    max-width: 90%;
+  }
+
+  .service-image-container {
+    height: 250px;
+  }
+}
+
+@media (max-width: 768px) {
+  .service-card {
+    max-width: 100%;
+    margin: 1rem;
+  }
+
+  .service-image-container {
+    height: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  .services {
+    width: 100%;
+    margin: 0;
+    padding: 0%;
+  }
+  .container-services {
+    width: 100%;
+    margin: 0% 1.5%;
+    padding: 0%;
+  }
+  .control-arrow {
+    display: none;
+  }
+  .service-card {
+    width: 90%;
+    height: 90%;
+    margin: 1rem;
+  }
+
+  .service-image-container {
+    height: 350px;
+  }
+  .react-multiple-carousel__arrow {
+    display: none;
+  }
+}
+
+

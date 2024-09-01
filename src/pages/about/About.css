@@ -12,7 +12,6 @@
 }
 
 .title {
-   .: 2.25rem; /* 36px */
   text-align: center;
   margin-bottom: 2rem;
   color: #3a4954;
@@ -24,10 +23,10 @@
 }
 
 .about-description {
-   .: 1.25rem; /* 20px */
   color: #3a4954;
   margin-bottom: 1.5rem;
   line-height: 1.6;
+  text-align: justify;
 }
 
 .carousel-section {
@@ -43,10 +42,11 @@
   display: block;
   margin: 0 auto;
 }
+
 .imgAboutUs-mobile {
   display: none;
-  
 }
+
 .imgAboutUs-desktop {
   width: 100%;
   height: auto;
@@ -60,14 +60,6 @@
     max-width: 90%;
   }
 
-  .title {
-     .: 2rem; /* 32px */
-  }
-
-  .about-description {
-     .: 1.125rem; /* 18px */
-  }
-  
   .imgAboutUs-desktop {
     max-width: 80%;
     margin: 0 auto;
@@ -81,14 +73,6 @@
 
   .container {
     max-width: 100%;
-  }
-
-  .title {
-     .: 1.75rem; /* 28px */
-  }
-
-  .about-description {
-     .: 1rem; /* 16px */
   }
 
   .carousel .slide img {
@@ -105,27 +89,20 @@
     padding: 1rem;
   }
 
-  .title {
-     .: 1.5rem; /* 24px */
-  }
-
-  .about-description {
-     .: 0.875rem; /* 14px */
-  }
-
   .carousel .slide img {
     width: 100%;
   }
+
   .imgAboutUs-mobile {
     display: block;
     width: 100%;
-  height: auto;
-  border-radius: 8px;
-  margin-bottom: 2rem;
-  box-shadow: #77736f 0px 0px 10px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    box-shadow: #77736f 0px 0px 10px;
   }
+
   .imgAboutUs-desktop {
     display: none;
-    
   }
 }

@@ -1,21 +1,25 @@
 import React from 'react';
-import Header from '../../components/Header/Header.jsx';
 import Banner from '../../components/Banner/Banner.jsx';
 import CarouselServ from '../../components/CarouselServ/CarouselServ.jsx';
 import AboutUs from '../../components/AboutUs/AboutUs.jsx';
 import Services from '../../components/Services/Services.jsx';
-import Footer from '../../components/Footer/Footer.jsx';
 import './home.css';
+import ContactForm from '../../components/ContactForm/ContactForm.jsx';
+import ServicesButton from '../../components/ServicesButton/ServicesButton.jsx';
+import AboutUsButton from '../../components/AboutUsButton/AboutUsButton.jsx';
 
 const Home = () => {
   return (
     <>
-      <Header />
+    
       <Banner />
       <CarouselServ />
       <AboutUs />
+      <AboutUsButton/>
+      <ContactForm />
       <Services />
-      <Footer />
+      <ServicesButton/>
+
     </>
   );
 };

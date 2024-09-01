@@ -1,20 +1,19 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram, FaWhatsapp } from 'react-icons/fa';
+import Logo from '../../assets/images/1.png';
 import './Footer.css';
 
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-container">
-        <div className="footer-section contact-info">
-          <h3>Contáctanos</h3>
-          <p>Centro, Calle 38 del Sargento Mayor # 6 - 16</p>
-          <p>Cartagena, Colombia</p>
-          <p>Teléfono: +57 300 1768488</p>
-          <p>Email: info@legalestate.com</p>
+        <div className="footer-about">
+          
+          <img src={Logo} alt="Legal Estate" className='Logo' />
+          <p>En Legal Estate, proporcionamos servicios legales y de bienes raíces confiables para satisfacer las necesidades de nuestros clientes.</p>
         </div>
-        <div className="footer-section quick-links">
+        <div className="footer-links">
           <h3>Enlaces Rápidos</h3>
           <ul>
             <li><Link to="/">Inicio</Link></li>
@@ -24,7 +23,7 @@ const Footer = () => {
             <li><Link to="/contact">Contacto</Link></li>
           </ul>
         </div>
-        <div className="footer-section social-media">
+        <div className="footer-social">
           <h3>Síguenos</h3>
           <div className="social-icons">
             <a href="https://www.facebook.com/LegalEstate.co" target="_blank" rel="noopener noreferrer"><FaFacebookF /></a>

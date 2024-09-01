@@ -1,11 +1,8 @@
 import React from 'react';
-import Header from '../../components/Header/Header.jsx';
 import AboutUs from '../../components/AboutUs/AboutUs.jsx';
-import Footer from '../../components/Footer/Footer.jsx';
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import imgCarousel1 from '../../assets/images/Frame 124.jpg';
-import imgCarousel2 from '../../assets/images/Frame 125.jpg';
 import imgCarousel3 from '../../assets/images/Frame 127.jpg';
 import imgCarousel4 from '../../assets/images/Frame 125.jpg';
 import imgCarousel5 from '../../assets/images/Frame 129.jpg';
@@ -16,7 +13,7 @@ import './About.css';
 const About = () => {
   return (
     <>
-      <Header />
+     
       <AboutUs />
       <section className="about-us">
         <div className="container">
@@ -48,7 +45,6 @@ const About = () => {
           </div>
         </div>
       </section>
-      <Footer />
     </>
   );
 };

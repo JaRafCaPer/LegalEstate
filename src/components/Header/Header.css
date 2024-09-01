@@ -15,7 +15,7 @@
   
 }
 .list-nav a{
-  font-size: 1rem;
+  
   display: inline-block;
   margin: 1rem;
 }
@@ -60,9 +60,9 @@
    
   }
   .list-nav a{
-    font-size: 1rem;
+    font-size: 0.9rem;
     display: inline-block;
-    margin: 0.3rem;
+    margin: 0.1rem;
   }
 
   .imgLeest {

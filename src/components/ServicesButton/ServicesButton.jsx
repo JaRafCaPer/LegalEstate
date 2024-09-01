@@ -11,7 +11,7 @@ const ServicesButton = () => {
       className="services-button"
       onClick={() => navigate('/services')}
     >
-      Conoce nuestros servicios
+      Nuestros servicios
     </button>
     </div>
   );

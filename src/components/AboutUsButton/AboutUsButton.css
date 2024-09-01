@@ -32,7 +32,7 @@
 @media (max-width: 480px) {
   .containerButton2 {
     flex-direction: column;
-    padding: 5%;
+    padding: 4%;
   }
   .about-us-button {
     width: 80%; /* Button width adjusts for smaller screens */

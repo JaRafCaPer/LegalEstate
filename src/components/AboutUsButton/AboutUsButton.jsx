@@ -11,7 +11,7 @@ const AboutUsButton = () => {
       className="about-us-button"
       onClick={() => navigate('/about')}
     >
-      Learn More About Us
+      Conocenos
     </button>
     </div>
   );

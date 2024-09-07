@@ -16,11 +16,6 @@ const ContactForm = () => {
     setFormData({ ...formData, [name]: value });
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    alert('Mensaje enviado con éxito!');
-  };
-
   return (
     <div className="contact-page">
       <div className="contact-info2">
@@ -41,8 +36,8 @@ const ContactForm = () => {
         </div>
       </div>
       <div className="contact-form-section">
-        <h2>Envíanos un Mensaje</h2>
-        <form onSubmit={handleSubmit} className="contact-form">
+        <h2>Pide tu asesoria personalizada:</h2>
+        <form action="https://public.herotofu.com/v1/12d6b520-6d10-11ef-ac86-0dfc96ef4036" method="post" accept-charset="UTF-8" className="contact-form">
           <div className="form-group">
             <input type="text" name="firstName" placeholder="Nombre" value={formData.firstName} onChange={handleChange} required />
             <input type="text" name="lastName" placeholder="Apellido" value={formData.lastName} onChange={handleChange} required />
@@ -51,6 +46,10 @@ const ContactForm = () => {
           <input type="tel" name="phone" placeholder="Teléfono" value={formData.phone} onChange={handleChange} required />
           <textarea name="message" placeholder="Mensaje" value={formData.message} onChange={handleChange} required></textarea>
           <button type="submit" className="submit-button">Enviar Mensaje</button>
+          {/* Anti-spam field */}
+          <div style={{ textIndent: '-99999px', whiteSpace: 'nowrap', overflow: 'hidden', position: 'absolute' }} aria-hidden="true">
+            <input type="text" name="_gotcha" tabIndex="-1" autoComplete="off" />
+          </div>
         </form>
       </div>
     </div>

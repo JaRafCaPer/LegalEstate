@@ -14,12 +14,11 @@ const Home = () => {
     
       <Banner />
       <CarouselServ />
+      <Services />
+      <ServicesButton/>
       <AboutUs />
       <AboutUsButton/>
       <ContactForm />
-      <Services />
-      <ServicesButton/>
-
     </>
   );
 };

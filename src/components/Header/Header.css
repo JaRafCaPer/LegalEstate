@@ -5,6 +5,7 @@
   justify-content: space-between; 
   align-items: center;
   padding: 1rem;
+  position: relative; /* Añadido para la posición relativa del menú */
 }
 
 .nav {
@@ -12,13 +13,13 @@
   justify-content: space-between;
   align-items: center;
   width: auto;
-  
 }
-.list-nav a{
-  
+
+.list-nav a {
   display: inline-block;
   margin: 1rem;
 }
+
 .imgCon {
   width: 50%;
   height: auto;
@@ -28,6 +29,43 @@
 .imgLeest {
   width: 30%;
   height: auto;
+}
+
+.menu-icon {
+  cursor: pointer;
+  font-size: 1.5rem;
+  z-index: 101; 
+  display: none; /* Oculta en escritorio */
+  color: #5e747f;
+}
+
+.list-nav {
+  display: flex;
+  gap: 1rem;
+  transition: transform 0.3s ease;
+}
+
+.list-nav.open {
+  display: block;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #BDBDBC;
+  width: 100%;
+  height: auto;
+  z-index: 100;
+  padding: 1rem;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 99;
+  transition: opacity 0.3s ease;
 }
 
 @media (max-width: 768px) {
@@ -41,13 +79,26 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
-    
   }
 
   .imgLeest {
-    width: 50%;
+    width: 60%;
     height: auto;
     margin-bottom: 1rem;
+  }
+
+  .menu-icon {
+    display: block; 
+  }
+
+  .list-nav {
+    display: none; 
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .list-nav.open {
+    display: block;
   }
 }
 
@@ -56,13 +107,11 @@
     padding: 0.5rem 0.25rem;
   }
 
-  .nav {
-   
-  }
-  .list-nav a{
+  .list-nav a {
     font-size: 0.9rem;
-    display: inline-block;
-    margin: 0.1rem;
+    display: flex;
+    flex-direction: column;
+    margin: 3% 0;
   }
 
   .imgLeest {

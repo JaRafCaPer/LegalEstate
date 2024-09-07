@@ -1,17 +1,17 @@
 .team-section {
   padding: 2rem;
   background-color: #3a4954;
-  /* mediumGray */
+  
   font-family: 'Asen Pro', sans-serif;
   color: #E1D9D0;
-  /* beige */
+  
 }
 
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 1rem;
-  /* Add some padding for better spacing */
+  
 }
 
 .title2 {
@@ -23,9 +23,10 @@
 .description {
 
   margin-bottom: 2rem;
-  text-align: center;
+  text-align: justify;
   line-height: 1.5;
-  /* Improve readability */
+  
+  
 }
 
 .subsection-title {
@@ -39,9 +40,9 @@
   list-style: none;
   padding: 0;
   margin: 0 auto;
-  /* Center the list */
+  
   max-width: 800px;
-  /* Limit the width for better readability */
+  
 }
 
 .list li {

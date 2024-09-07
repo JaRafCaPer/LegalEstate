@@ -7,6 +7,7 @@ import Team from './pages/Team/Team.jsx';
 import Contact from './pages/Contact.jsx';
 import Header from './components/Header/Header.jsx';
 import Footer from './components/Footer/Footer.jsx';
+import WhatsAppButton from './components/WhatsappButton/WhatsappButon.jsx';
 
 const AppRouter = () => {
   console.log('Rendering Router component');
@@ -21,6 +22,7 @@ const AppRouter = () => {
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
+      <WhatsAppButton />
     </Router>
   );
 };
